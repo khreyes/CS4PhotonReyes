@@ -1,0 +1,40 @@
+package javaapplication1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author PHOTON
+ */
+public class JavaApplication1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      String p1 = "Eleanor Shellstrop";
+      int age1 = 31 ;
+      boolean isInGoodPlace1  = true;
+      String hobby1 = "learning how to be a good person";
+      System.out.printf("%s%nAge:%s%nIn The Good Place: %s%nHobby: %s%n%n", p1, age1, isInGoodPlace1, hobby1);
+      
+      String p2 = "Chidi Anagonye";
+      int age2 = 31;
+      boolean isInGoodPlace2 = true;
+      String hobby2 = "teaching Eleanor how to be a good person";
+      System.out.printf("%s%nAge:%s%nIn The Good Place: %s%nHobby: %s%n%n", p2, age2, isInGoodPlace2, hobby2);
+      
+      String p3 = "Brent Norwalk";
+      int age3 = 50;
+      boolean isInGoodPlace3 = false;
+      String hobby3 = "telling people he went to Princeton";
+      System.out.printf("%s%nAge:%s%nIn The Good Place: %s%nHobby: %s%n%n", p3, age3, isInGoodPlace3, hobby3);
+      
+      int sumAge = age1 + age2 + age3;
+      System.out.println("Sum of their ages: " + sumAge);
+      
+      System.out.println("Are they all in The Good Place: " + (isInGoodPlace1 && isInGoodPlace2 && isInGoodPlace3));
+      System.out.println("Is Brent older than Chidi: " + (age3 > age2));
+    }
+    
+}
