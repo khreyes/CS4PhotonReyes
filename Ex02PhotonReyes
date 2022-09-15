@@ -1,0 +1,48 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package ex02photonreyes;
+
+import java.util.Scanner;
+
+public class Ex02PhotonReyes {
+
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       String input;
+       do{
+       System.out.println("Welcome to Higher or Lower! Please choose an option below" + "\n" + "-Start game" + "\n" + "-Change game settings" + "\n" + "-Leave game");
+       String input = sc.nextLine();
+       } while(!input.equalsIgnoreCase("end application"));
+       
+       switch(input){
+           case "start game":
+           
+           int random = (int) Math.floor(Math.random()*10) + 1;
+           for int remaining=guesses; remaining > 0; remaining~~) {
+           }
+           System.out.println("You have %d guess(es) left. What is your guess?");
+                   int answer
+           break;
+           
+           case "change game settings":
+           break;
+           
+           case "leave game":
+           System.out.println("Thank you for playing, game terminated.");
+           break;
+           
+         }
+}
+           
+           
+           
+       
+       
+       
+       
+       
+      
